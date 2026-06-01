@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nom": "Dupont",
+    "prenom": "Alice",
+    "email": "alice.dupont@example.com",
+    "telephone": "06 12 34 56 78",
+    "etablissement": "Université Paris-Saclay",
+    "profil": "Licence Informatique",
+    "type_stage": "Stage de 2ème année (3 mois)",
+    "recommande": "Par un ami",
+    "date_debut": "2025-02-01",
+    "date_fin": "2025-05-01",
+    "decision": null,
+    "pdf": "alice_cv.pdf",
+    "word": "alice_lettre.docx"
+  },
+  {
+    "id": 2,
+    "nom": "Martin",
+    "prenom": "Bruno",
+    "email": "bruno.martin@example.com",
+    "telephone": "06 98 76 54 32",
+    "etablissement": "École Polytechnique",
+    "profil": "Master Data Science",
+    "type_stage": "Stage de fin d'études (6 mois)",
+    "recommande": "Par notre site web",
+    "date_debut": "2025-03-15",
+    "date_fin": "2025-09-15",
+    "decision": null,
+    "pdf": "bruno_cv.pdf",
+    "word": "bruno_lettre.docx"
+  },
+  {
+    "id": 3,
+    "nom": "Leclerc",
+    "prenom": "Claire",
+    "email": "claire.leclerc@example.com",
+    "telephone": "06 45 67 89 01",
+    "etablissement": "HEC Paris",
+    "profil": "Master Management",
+    "type_stage": "Stage de 1ère année (4 mois)",
+    "recommande": "Par une recommandation",
+    "date_debut": "2025-04-01",
+    "date_fin": "2025-08-01",
+    "decision": null,
+    "pdf": "claire_cv.pdf",
+    "word": "claire_lettre.docx"
+  }
+]
