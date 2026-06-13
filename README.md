@@ -47,6 +47,21 @@ stage-app/
 └── documentation/
 ```
 
+## Prérequis
+
+- Python 3.x
+- Node.js
+- npm
+- SQLite
+
+## Variables d'environnement
+
+Le fichier `.env` doit contenir les paramètres nécessaires à l'envoi des notifications SMS via Twilio :
+
+TWILIO_ACCOUNT_SID=
+TWILIO_AUTH_TOKEN=
+TWILIO_PHONE_NUMBER=
+
 ## Installation
 
 ### Backend
