@@ -38,7 +38,7 @@ La solution facilite le dépôt des candidatures, le traitement des dossiers, l�
 
   Architecture de la solution
 
-La plateforme repose sur une architecture client-serveur :
+## La plateforme repose sur une architecture client-serveur :
 
 - Frontend React.js : interface utilisateur destinée aux candidats et au responsable RH.
 - Backend Flask : gestion des traitements métiers et des API REST.
@@ -90,7 +90,7 @@ npm install
 npm start
 ```
 
-Principales routes API
+## Principales routes API
 
 GET /stagiaires
 Récupération des candidatures.
