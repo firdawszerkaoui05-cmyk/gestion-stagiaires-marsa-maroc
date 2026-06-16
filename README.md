@@ -36,6 +36,16 @@ La solution facilite le dépôt des candidatures, le traitement des dossiers, l�
 - OCR (Reconnaissance optique de caractères)
 - Twilio SMS
 
+  Architecture de la solution
+
+La plateforme repose sur une architecture client-serveur :
+
+- Frontend React.js : interface utilisateur destinée aux candidats et au responsable RH.
+- Backend Flask : gestion des traitements métiers et des API REST.
+- Base de données SQLite : stockage des candidatures et informations des stagiaires.
+- OCR Pytesseract : extraction automatique des données des documents.
+- Twilio SMS : envoi automatique des notifications aux candidats.
+
 ## Structure du projet
 
 ```text
@@ -79,6 +89,26 @@ cd frontend
 npm install
 npm start
 ```
+
+Principales routes API
+
+GET /stagiaires
+Récupération des candidatures.
+
+POST /stagiaires
+Soumission d'une candidature.
+
+PUT /stagiaires/<id>/decision
+Validation ou refus d'une candidature.
+
+POST /valider-stage/<id>
+Validation finale avec génération automatique de la fiche et envoi SMS.
+
+POST /api/affectation/generer
+Génération automatique d'une affectation.
+
+POST /api/documents/fiche-officielle
+Génération de la fiche officielle du stagiaire.
 
 ## Résultats obtenus
 
